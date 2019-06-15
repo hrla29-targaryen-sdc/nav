@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Brandon Text';
+  src: url(../../../fonts/brandon-text.woff2) format('woff2');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Brandon Text Bold';
+  src: url(../../../fonts/brandon-text-bold.woff2) format('woff2');
+  font-style: normal;
+}
+
+.entireCategorySectionAlignDiv {
+  margin-top: 35px;
+}
+
+.categoryDiv {
+  background-color: rgba(255, 255, 255, 0.95);
+  height: 500px;
+}
+
+.categories {
+  color: #333;
+  font-family: 'Brandon Text Bold';
+  font-size: 95%;
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 0 5px 0 5px;
+}
+
+.subcategories {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Brandon Text';
+  font-weight: 300;
+  font-size: 90%;
+  line-height: 1.4;
+  color: #333;
+}
+
+.subcategories li {
+  margin: 10px 5px 10px 5px;
+}

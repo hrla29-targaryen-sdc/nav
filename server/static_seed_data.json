@@ -1,0 +1,588 @@
+[
+  { 
+    "name": "Designer",
+    "categories": [
+      { 
+        "name": "Designer Brands", 
+        "subcategories" : [
+          { "name": "Balenciaga" },
+          { "name": "Brunello Cucinelli" },
+          { "name": "Burberry" },
+          { "name": "Chloé" },
+          { "name": "Christian Louboutin" },
+          { "name": "Dries Van Noten" },
+          { "name": "Fendi" },
+          { "name": "Givenchy" },
+          { "name": "Gucci" },
+          { "name": "Loewe" },
+          { "name": "Moncler" },
+          { "name": "Prada" },
+          { "name": "Saint Laurent" },
+          { "name": "Valentino" }
+        ]
+      },
+      {
+        "name": "Women",
+        "subcategories": [
+          { "name": "Designer Clothing" },
+          { "name": "Designer Shoes" },
+          { "name": "Designer Handbags" },
+          { "name": "Designer Jewelry" },
+          { "name": "Designer Accessories" }
+        ]
+      },
+      {
+        "name": "Men",
+        "subcategories": [
+          { "name": "All Men's Designer" },
+          { "name": "Designer Clothing"},
+          { "name": "Designer Shoes" },
+          { "name": "Designer Accessories" }
+        ]
+      },
+      {
+        "name": "Kids",
+        "subcategories": [
+          { "name": "Designer Girls" },
+          { "name": "Designer Boys" },
+          { "name": "Designer Baby" },
+          { "name": "Designer Shoes" },
+          { "name": "Designer Accessories" }
+        ]
+      },
+      {
+        "name": "SPACE: Emerging & Advanced Designer",
+        "subcategories": [
+          { "name": "Ready-to-Wear" },
+          { "name": "Shoes" },
+          { "name": "Handbags" },
+          { "name": "Jewelry" },
+          { "name": "Accessories" },
+          { "name": "Home" }
+        ]
+      },
+      {
+        "name": "SPACE: Emerging & Advanced Designer Brands",
+        "subcategories": [
+          { "name": "Acne Studios" },
+          { "name": "Cecille Bahnsen" },
+          { "name": "Comme des Garçons" },
+          { "name": "Ganni" },
+          { "name": "Jacquemus" },
+          { "name": "Off-White" },
+          { "name": "Simone Rocha" },
+          { "name": "Sophie Buhai" }
+        ]
+      }
+    ]
+  },
+  { 
+    "name": "Women",
+    "categories": [
+      {
+        "name": "Clothing",
+        "subcategories": [
+          { "name": "Activewear" },
+          { "name": "Coats, Jackets & Blazers" },
+          { "name": "Dresses" },
+          { "name": "Jeans & Denim" },
+          { "name": "Jumpsuits & Rompers" },
+          { "name": "Lingerie, Hosiery & Shapewear" },
+          { "name": "Pants & Leggings" },
+          { "name": "Shorts" },
+          { "name": "Skirts" },
+          { "name": "Sleepwear, Lounge & Robes" },
+          { "name": "Sweaters" },
+          { "name": "Sweatshirts & Hoodies" },
+          { "name": "Swimsuits & Cover-Ups" },
+          { "name": "Tops" }
+        ]
+      },
+      {
+        "name": "Shoes",
+        "subcategories": [
+          { "name": "Booties" },
+          { "name": "Boots" },
+          { "name": "Comfort" },
+          { "name": "Espadrilles" },
+          { "name": "Flats" },
+          { "name": "Heels" },
+          { "name": "Mules & Slides" },
+          { "name": "Oxfords & Loaders" },
+          { "name": "Running" },
+          { "name": "Sandals" },
+          { "name": "Sneakers & Athletic" },
+          { "name": "Wedges" }
+        ]
+      },
+      {
+        "name": "Handbags",
+        "subcategories": [
+          { "name": "Backpacks" },
+          { "name": "Belt Bags" },
+          { "name": "Bucket Bags" },
+          { "name": "Clutches & Pouches" },
+          { "name": "Crossbody Bags" },
+          { "name": "Designer Handbags" },
+          { "name": "Hobo Bags" },
+          { "name": "Satchels" },
+          { "name": "Shoulder Bags" },
+          { "name": "Tote Bags" },
+          { "name": "Wallets & Card Cases" }
+        ]
+      },
+      {
+        "name": "Jewelry",
+        "subcategories": [
+          { "name": "Bracelets" },
+          { "name": "Earrings" },
+          { "name": "Fine Jewelry" },
+          { "name": "Necklaces" },
+          { "name": "Rings" },
+          { "name": "Watches" }
+        ]
+      },
+      {
+        "name": "Accessories",
+        "subcategories": [
+          { "name": "Belts" },
+          { "name": "Gloves & Mittens" },
+          { "name": "Hair Accessories" },
+          { "name": "Hats" },
+          { "name": "Headphones" },
+          { "name": "Luggage & Travel" },
+          { "name": "Phone Cases" },
+          { "name": "Scarves & Wraps" },
+          { "name": "Sunglasses & Eyewear" }
+        ]
+      }
+    ]
+  },
+  { 
+    "name": "Men",
+    "categories": [
+      {
+        "name": "Clothing",
+        "subcategories": [
+          { "name": "Blazers & Sport Coats" },
+          { "name": "Coats & Jackets" },
+          { "name": "Jeans" },
+          { "name": "Lounge & Pajamas" },
+          { "name": "Pants" },
+          { "name": "Polo Shirts" },
+          { "name": "Shirts" },
+          { "name": "Shorts" },
+          { "name": "Suits & Separates" },
+          { "name": "Sweaters" },
+          { "name": "Sweatshirts & Hoodies" },
+          { "name": "Swimwear & Board Shorts" },
+          { "name": "T-Shirts & Tank Tops" },
+          { "name": "Underwear, Boxers & Socks" },
+          { "name": "Workout & Gym" }
+        ]
+      },
+      {
+        "name": "Shoes",
+        "subcategories": [
+          { "name": "Boots" },
+          { "name": "Comfort" },
+          { "name": "Dress Shoes" },
+          { "name": "Loafers & Slip-Ons" },
+          { "name": "Oxfords & Derbys" },
+          { "name": "Running" },
+          { "name": "Sandals & Flip-Flops" },
+          { "name": "Sneakers & Athletic" }
+        ]
+      },
+      {
+        "name": "Accessories",
+        "subcategories": [
+          { "name": "All Men's Accessories" },
+          { "name": "Bags & Backpacks" },
+          { "name": "Belts & Suspenders" },
+          { "name": "Hats, Gloves & Scarves" },
+          { "name": "Headphones" },
+          { "name": "Jewelry & Cuff Links" },
+          { "name": "Luggage & Travel" },
+          { "name": "Phone Cases" },
+          { "name": "Sunglasses & Eyewear" },
+          { "name": "Ties & Pocket Squares" },
+          { "name": "Wallets" },
+          { "name": "Watches" }
+        ]
+      },
+      {
+        "name": "Grooming & Cologne",
+        "subcategories": [
+          { "name": "Body Care & Deodorant" },
+          { "name": "Cologne" },
+          { "name": "Gifts & Sets" },
+          { "name": "Shaving & Beard Care" },
+          { "name": "Skin Care" }
+        ]
+      },
+      {
+        "name": "Designer",
+        "subcategories": [
+          { "name": "Designer Clothing" },
+          { "name": "Designer Shoes" },
+          { "name": "Designer Accessories" }
+        ]
+      },
+      {
+        "name": "Big & Tall",
+        "subcategories": [
+          { "name": "Clothing" },
+          { "name": "Jeans" },
+          { "name": "Pants" },
+          { "name": "Shirts" }
+        ]
+      }
+    ]
+  },
+  { 
+    "name": "Kids",
+    "categories": [
+      {
+        "name": "Girls",
+        "subcategories": [
+          { "name": "Girls (Sizes 2T-7)" },
+          { "name": "Girls (Sizes 7-16)" },
+          { "name": "Tween Girls" },
+          { "name": "Accessories" },
+          { "name": "Activewear" },
+          { "name": "Coats & Jackets" },
+          { "name": "Dresses & Rompers " },
+          { "name": "Jeans" },
+          { "name": "Pajamas & Robes" },
+          { "name": "Swimsuits & Cover-ups" },
+          { "name": "Tops" }
+        ]
+      },
+      {
+        "name": "Girls' Shoes",
+        "subcategories": [
+          { "name": "Toddler (Sizes 7.5-12)" },
+          { "name": "Little Kid (Sizes 12.5-3)" },
+          { "name": "Big Kid (Size 3.5-7)" },
+          { "name": "Sandals & Flip-Flops" },
+          { "name": "Sneakers & Athletic" }
+        ]
+      },
+      {
+        "name": "Boys",
+        "subcategories": [
+          { "name": "Boys (Sizes 2T-7)" },
+          { "name": "Boys (Sizes 8-10)" },
+          { "name": "Tween Boys" },
+          { "name": "Accessories" },
+          { "name": "Coats & Jackets" },
+          { "name": "Jeans" },
+          { "name": "Pajamas & Robes" },
+          { "name": "Shirts & Tops" },
+          { "name": "Suits & Separates" },
+          { "name": "Swim Trunks & Rashguards" }
+        ]
+      },
+      {
+        "name": "Boys' Shoes",
+        "subcategories": [
+          { "name": "Toddler (Sizes 7.5-12)" },
+          { "name": "Little Kid (Sizes 12.5-3)" },
+          { "name": "Big Kid (Size 3.5-7)" },
+          { "name": "Sandals & Flip-Flops" },
+          { "name": "Sneakers & Athletic" }
+        ]
+      },
+      {
+        "name": "Baby",
+        "subcategories": [
+          { "name": "Accessories" },
+          { "name": "Baby Girl Clothing" },
+          { "name": "Baby Boy Clothing" },
+          { "name": "Unisex Baby Clothing" },
+          { "name": "Baby Shower Gifts" }
+        ]
+      },
+      {
+        "name": "Baby & Walker Shoes",
+        "subcategories": [
+          { "name": "Girl Baby & Walker Shoes" },
+          { "name": "Boy Baby & Walker Shoes" },
+          { "name": "Unisex Baby & Walker Shoes" },
+          { "name": "First Walker shoes" },
+          { "name": "Sandals" }
+        ]
+      },
+      {
+        "name": "Baby Gear & Essentials",
+        "subcategories": [
+          { "name": "Baby Carriers" },
+          { "name": "Bath & Potty" },
+          { "name": "Blankets & Swaddles" },
+          { "name": "Car Seats" },
+          { "name": "Diaper Bags" },
+          { "name": "Feeding" },
+          { "name": "Health & Safety" },
+          { "name": "High Chairs" },
+          { "name": "Nursery & Decor" },
+          { "name": "Strollers" }
+        ]
+      }
+    ]
+  },
+  { 
+    "name": "Home & Gifts",
+    "categories": [
+      {
+        "name": "Bedding",
+        "subcategories": [
+          { "name": "Luxury Bedding" },
+          { "name": "Bedding Sets" },
+          { "name": "Blankets & Throws" },
+          { "name": "Comforters & Quilts" },
+          { "name": "Decorative Pillows" },
+          { "name": "Duvet Covers & Shams" },
+          { "name": "Sheets & Bed Skirts" }
+        ]
+      },
+      {
+        "name": "Bath",
+        "subcategories": [
+          { "name": "Luxury Bath" },
+          { "name": "Bath Accessories" },
+          { "name": "Rugs & Mats" },
+          { "name": "Towels" }
+        ]
+      },
+      {
+        "name": "Baby & Kids",
+        "subcategories": [
+          { "name": "Bath"},
+          { "name": "Bedding"},
+          { "name": "Furniture & Decor" }
+        ]
+      },
+      {
+        "name": "Home Decor",
+        "subcategories": [
+          { "name": "Luxury Home Decor" },
+          { "name": "Art, Wall & Mirrors" },
+          { "name": "Candles & Diffusers" },
+          { "name": "Decorative Accents" },
+          { "name": "Desk Accessories & Stationery" },
+          { "name": "Faux Flowers & Plants" },
+          { "name": "Lighting & Lamps" },
+          { "name": "Picture Frames" },
+          { "name": "Pillows & Throw Blankets" },
+          { "name": "Rugs" }
+        ]
+      },
+      {
+        "name": "Tabletop & Kitchen",
+        "subcategories": [
+          { "name": "Bar Accessories" },
+          { "name": "Cookware & Bakeware" },
+          { "name": "Dinnerware" },
+          { "name": "Drinkware & Glassware" },
+          { "name": "Flatware & Utensils" },
+          { "name": "Serveware" },
+          { "name": "Small Appliances" }
+        ]
+      },
+      {
+        "name": "Electronic & Tech Accessories",
+        "subcategories": [
+          { "name": "Headphones" },
+          { "name": "Smart Home" },
+          { "name": "Speakers & Home Audio" }
+        ]
+      },
+      {
+        "name": "Gifts",
+        "subcategories": [
+          { "name": "eGifts Cards" },
+          { "name": "Gift Cards" },
+          { "name": "Gifts for Her" },
+          { "name": "Gifts for Him" },
+          { "name": "Gifts for Kids" },
+          { "name": "Gifts for Baby" }
+        ]
+      },
+      {
+        "name": "Occasion",
+        "subcategories": [
+          { "name": "Anniversary" },
+          { "name": "Baby Shower" },
+          { "name": "Birthday" },
+          { "name": "Graduation" },
+          { "name": "Housewarming" },
+          { "name": "Wedding" }
+        ]
+      }
+    ] 
+  },
+  { 
+    "name": "Beauty",
+    "categories": [
+      {
+        "name": "Beauty Brands",
+        "subcategories": [
+          { "name": "Bobbi Brown" },
+          { "name": "CHANEL" },
+          { "name": "Charlotte Tilbury" },
+          { "name": "Clinique" },
+          { "name": "Dior" },
+          { "name": "Estée Lauder" },
+          { "name": "Jo Malone London" },
+          { "name": "Kiehl's" },
+          { "name": "La Mer" },
+          { "name": "Lancôme" },
+          { "name": "Le Labo" },
+          { "name": "MAC Cosmetics" },
+          { "name": "NARS" },
+          { "name": "TOM FORD" },
+          { "name": "Trish McEvoy" },
+          { "name": "Yves Saint Laurent" }
+        ]
+      },
+      {
+        "name": "Makeup",
+        "subcategories": [
+          { "name": "Blush" },
+          { "name": "Bronzer" },
+          { "name": "Brushes & Tools" },
+          { "name": "Concealer" },
+          { "name": "Contouring" },
+          { "name": "Eyebrows" },
+          { "name": "Eyeliner" },
+          { "name": "Eyeshadow" },
+          { "name": "Foundation" },
+          { "name": "Highlighter" },
+          { "name": "Lipstick, Lip Gloss & Liner" },
+          { "name": "Mascara" },
+          { "name": "Nail Polish & Care" },
+          { "name": "Palettes" },
+          { "name": "Powder & Setting Spray" },
+          { "name": "Primer" }
+        ]
+      },
+      {
+        "name": "Skin Care",
+        "subcategories": [
+          { "name": "Cleansers" },
+          { "name": "Exfoliators & Peels" },
+          { "name": "Eye Creams & Treatments" },
+          { "name": "Face Masks" },
+          { "name": "Face Mists & Essences" },
+          { "name": "Face Moisturizers" },
+          { "name": "Lip Balms & Treatments" },
+          { "name": "Makeup Remover" },
+          { "name": "Serums" },
+          { "name": "Sunscreen & Self Tanners" },
+          { "name": "Toners" },
+          { "name": "Tools & Devices" }
+        ]
+      },
+      {
+        "name": "Fragrance",
+        "subcategories": [
+          { "name": "Candles & Diffusers" },
+          { "name": "Perfume" },
+          { "name": "Rollerball & Travel Size" }
+        ]
+      },
+      {
+        "name": "Hair Care",
+        "subcategories": [
+          { "name": "Hair & Scalp Treatments" },
+          { "name": "Hair Dryers & Styling Tools" },
+          { "name": "Hair Styling Products" },
+          { "name": "Shampoo & Conditioner" }
+        ]
+      }
+    ]  
+  },
+  { 
+    "name": "Sale",
+    "categories": [
+      {
+        "name": "Women",
+        "subcategories": [
+          { "name": "New Markdowns" },
+          { "name": "Clothing" },
+          { "name": "Shoes" },
+          { "name": "Handbags & Wallets" },
+          { "name": "Jewelry" },
+          { "name": "Accessories" },
+          { "name": "Beauty & Fragrance" },
+          { "name": "Designer" }
+        ]
+      },
+      {
+        "name": "Men",
+        "subcategories": [
+          { "name": "New Markdowns" },
+          { "name": "Clothing" },
+          { "name": "Shoes" },
+          { "name": "Accessories" },
+          { "name": "Designer" }
+        ]
+      },
+      {
+        "name": "Kids",
+        "subcategories": [
+          { "name": "New Markdowns" },
+          { "name": "Girls " },
+          { "name": "Boys" },
+          { "name": "Baby" },
+          { "name": "Baby Gear & Essentials" },
+          { "name": "Shoes" },
+          { "name": "Toy Shop" }
+        ]
+      },
+      {
+        "name": "Home",
+        "subcategories": [
+          { "name": "New Markdowns" },
+          { "name": "Bedding" },
+          { "name": "Bath" },
+          { "name": "Home Decor" },
+          { "name": "Tabletop & Kitchen" }
+        ]
+      }
+    ]
+  },
+  { 
+    "name": "What's New",
+    "categories": [
+      {
+        "name": "Women",
+        "subcategories": [
+          { "name": "All In" },
+          { "name": "Beauty: Get the Look" },
+          { "name": "Beauty: The Edit" },
+          { "name": "Denim Update: White Out" },
+          { "name": "Festival Style" },
+          { "name": "Fitness Fix" },
+          { "name": "Get the Look" },
+          { "name": "How-Tos & Style Advice" },
+          { "name": "Outfit Generator" },
+          { "name": "Style Steals Under $100" },
+          { "name": "The Accessory Edit" },
+          { "name": "The One" },
+          { "name": "Trend Report" }
+        ]
+      },
+      {
+        "name": "Men",
+        "subcategories": [
+          { "name": "Get Into Gear" },
+          { "name": "How-Tos & Style Advice" },
+          { "name": "New Concepts" },
+          { "name": "Trend Report" }
+        ]
+      }
+    ]
+  }
+]

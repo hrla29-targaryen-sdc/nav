@@ -1,0 +1,205 @@
+@font-face {
+  font-family: 'Brandon Text';
+  src: url(../../fonts/brandon-text.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Brandon Text Bold';
+  src: url(../../fonts/brandon-text-bold.woff2) format('woff2');
+  font-style: normal;
+}
+
+.navbar {
+  margin: 3% 2% 0 2%;
+  padding-left: 3%;
+  padding-right: 1%;
+}
+
+.logo {
+  text-align: left;
+}
+
+.components {
+  float: right;
+}
+
+.topComp {
+  margin: 25px 0 35px 0;
+}
+
+.rightComp {
+  margin: 0 0 0 20px;
+}
+
+/***** search box related *****/
+
+.searchBoxDiv {
+  background: #fff;
+  border: 1px solid #e3e3e3;
+  box-shadow: 0 0 5px 1px rgba(0,0,0,.11);
+  position: absolute;
+  right: 9%;
+  top: 11%;
+  z-index: 6;
+}
+
+.searchBoxForm {
+  height: 60px;
+  width: 425px;
+}
+
+.searchBoxForm input {
+  border: 0;
+  color: #333;
+  font-family: 'Brandon Text';
+  font-weight: 300;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  outline-width: 0;
+  margin: 20px 25px 10px 25px;
+  width: 390px;
+}
+
+.searchBoxForm input ::placeholder {
+  color: rgba(51, 51, 51, 0.625);
+}
+
+.searchExit {
+  z-index: 7;
+  float: right;
+}
+
+.searchExit path {
+  fill: none;
+  stroke: #737373;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+
+.searchResults {
+  color: #333;
+  font-family: 'Brandon Text';
+  font-size: 82%;
+  font-weight: 300;
+  line-height: 1.4;
+  list-style-type: none;
+  margin: 0 25px 0 25px;
+  padding: 0;
+}
+
+.searchResults strong {
+  font-family: 'Brandon Text Bold';
+}
+
+.searchResults li {
+  margin: 10px 0 10px 0;
+}
+
+.featuredResult {
+  color: #333;
+  font-family: 'Brandon Text Bold';
+  font-size: 0.9rem;
+  line-height: 1.4;
+  padding: 40px 55px;
+}
+
+.imgResultDiv ul {
+  list-style: none;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+.imgResultDiv ul li {
+  display: inline;
+  padding-right: 20px;
+}
+
+.imgResult {
+  width: 90px;
+}
+
+/***** account related *****/
+
+.accountDiv {
+  background: #fff;
+  border: 1px solid #e3e3e3;
+  box-shadow: 0 0 5px 1px rgba(0,0,0,.11);
+  height: 200px;
+  position: absolute;
+  right: 3%;
+  top: 11%;
+  width: 250px;
+  z-index: 6;
+}
+
+.accountDiv ul {
+  color: #333;
+  font-family: 'Brandon Text';
+  font-size: 0.8rem;
+  line-height: 1.4;
+  list-style: none;
+  margin: 0;
+  padding: 20px!important;
+  text-align: left;
+}
+
+.accountDiv ul li {
+  margin: 5px 0 20px 0;
+}
+
+.accountSignBtn {
+  background: #000 none!important;
+  border-color: #000;
+  color: #fff!important;
+  font-weight: 400;
+  padding: 10px 85px;
+  margin: 0 auto;
+}
+
+/***** cart related *****/
+
+.cartDiv {
+  position: absolute;
+  background: #fff;
+  border: 1px solid #e3e3e3;
+  box-shadow: 0 0 5px 1px rgba(0,0,0,.11);
+  height: 55px;
+  right: 1%;
+  top: 11%;
+  width: 365px;
+  z-index: 6;
+}
+
+.cartDivInt {
+  padding: 15px 5px 10px 5px;
+  text-align: center;
+}
+
+.cartDivInt span {
+  font-family: 'Brandon Text';
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #333;
+}
+
+
+.departments {
+  position: absolute;
+  z-index: 5;
+}
+
+.overlayDiv {
+  background-color:rgba(255, 255, 255, 0.55);
+  height: 100%;
+  top:200px;
+  width: 99%;
+  z-index: 25;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(1px);
+}
+

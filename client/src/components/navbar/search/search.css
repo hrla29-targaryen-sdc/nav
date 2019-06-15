@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Brandon Text';
+  src: url(../../../fonts/brandon-text.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.search {
+  font-family: 'Brandon Text';
+  line-height: 1.4;
+  color: #333;
+}
+
+.searchIcon {
+  fill: none;
+  stroke: #393939;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
