@@ -4,3 +4,4 @@
 /stress-test
 /server/controller.js
 /server/router.js
+.env
