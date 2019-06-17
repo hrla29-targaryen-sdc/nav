@@ -35,5 +35,5 @@ app.use('/pg/navbar', pg_router)
 // psql postgres://ec2-3-87-44-33.compute-1.amazonaws.com:5432/nordstrom ubuntu
 
 // establish port to listen on
-const PORT = process.env.PORT || 80
+const PORT = process.env.PORT || 3000
 app.listen(PORT, ()=> console.log("Server is up and running on ", PORT))
