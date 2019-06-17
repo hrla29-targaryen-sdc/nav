@@ -21,8 +21,8 @@ app.use(expressStaticGzip(path.resolve(__dirname,'../client/dist'), {
 }))
 
 //to verify loader io
-app.use("/loaderio-05c0ddbc07e2843cee0ab183f426ea54", (req,res)=> {
-	res.send("loaderio-05c0ddbc07e2843cee0ab183f426ea54")
+app.use("/loaderio-a7823112e3429ef71eb0c57ab7195cf1", (req,res)=> {
+	res.send("loaderio-a7823112e3429ef71eb0c57ab7195cf1")
 })
 
 //front-end axios
