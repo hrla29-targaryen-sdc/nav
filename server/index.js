@@ -20,6 +20,11 @@ app.use(expressStaticGzip(path.resolve(__dirname,'../client/dist'), {
 	orderPreference: ['br', 'gz']
 }))
 
+//to verify loader io
+app.use("/loaderio-05c0ddbc07e2843cee0ab183f426ea54", (req,res)=> {
+	res.send("loaderio-05c0ddbc07e2843cee0ab183f426ea54")
+})
+
 //front-end axios
 // app.use('/navbar', router)
 
@@ -27,8 +32,8 @@ app.use(expressStaticGzip(path.resolve(__dirname,'../client/dist'), {
 app.use('/pg/navbar', pg_router)
 
 //postgres route
-// psql postgres://ec2-3-88-194-253.compute-1.amazonaws.com:5432/nordstrom ubuntu
+// psql postgres://ec2-3-87-44-33.compute-1.amazonaws.com:5432/nordstrom ubuntu
 
 // establish port to listen on
-const PORT = process.env.PORT || 3100
+const PORT = process.env.PORT || 80
 app.listen(PORT, ()=> console.log("Server is up and running on ", PORT))
