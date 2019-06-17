@@ -1,3 +1,4 @@
+require('newrelic');
 const express = require('express')
 const cors = require('cors')
 const path = require('path')
@@ -36,4 +37,4 @@ app.use('/pg/navbar', pg_router)
 
 // establish port to listen on
 const PORT = process.env.PORT || 3000
-app.listen(PORT, ()=> console.log("Server is up and running on ", PORT))
+app.listen(PORT, ()=> console.log("Server is up and running on", PORT))

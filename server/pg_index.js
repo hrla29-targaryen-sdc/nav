@@ -2,7 +2,7 @@ const { Pool } = require('pg')
 let pool
 
 pool = new Pool({
-  host: 'ec2-3-87-44-33.compute-1.amazonaws.com',
+  host: 'ec2-54-209-252-29.compute-1.amazonaws.com',
   user: 'ubuntu',
   database: 'nordstrom',
   password: 'abcdef',
@@ -12,8 +12,12 @@ pool = new Pool({
   connectionTimeoutMillis: 2000,
 })
 
-if (pool) {
-  console.log("Postgresql is up and running on 5432")
-}
+pool.query('SELECT NOW()', (err, res) => {
+  if (err) {
+  	return console.log("Postgres got an error : ", err )
+  }
+  console.log("Postgres is up and running on 5432")
+  pool.end()
+})
 
 module.exports = pool
