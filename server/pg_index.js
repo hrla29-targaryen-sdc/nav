@@ -12,9 +12,9 @@ pool = new Pool({
   database: 'nordstrom',
   password: 'abcdef',
   port : 5432,
-  max: 40,
+  max: 100,
   idleTimeoutMillis: 30000,
-  connectionTimeoutMillis: 2000,
+  connectionTimeoutMillis: 4000,
 })
 
 pool.query('SELECT NOW()', (err, res) => {
