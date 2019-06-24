@@ -1,15 +1,16 @@
 const { Pool } = require('pg')
 let pool
 
-// psql postgres://ec2-35-174-167-7.compute-1.amazonaws.com:5432/nordstrom ubuntu
+//replica set => ec2-54-219-173-46.us-west-1.compute.amazonaws.com
+//standlaone  =>
 
 pool = new Pool({
-  host: 'ec2-52-53-214-112.us-west-1.compute.amazonaws.com',
+  host: 'ec2-54-219-173-46.us-west-1.compute.amazonaws.com',
   user: 'postgres',
   database: 'nordstrom',
   password: 'abcdef',
   port : 5432,
-  max: 40,
+  max: 60,
   idleTimeoutMillis: 30000,
   connectionTimeoutMillis: 2000,
 })
