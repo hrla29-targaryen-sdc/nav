@@ -4,13 +4,15 @@ let pool
 //replica set => ec2-54-219-173-46.us-west-1.compute.amazonaws.com
 //standlaone  =>
 
+//virgin => ec2-54-173-184-106.compute-1.amazonaws.com
+
 pool = new Pool({
-  host: 'ec2-54-219-173-46.us-west-1.compute.amazonaws.com',
+  host: 'ec2-54-173-184-106.compute-1.amazonaws.com',
   user: 'postgres',
   database: 'nordstrom',
   password: 'abcdef',
   port : 5432,
-  max: 60,
+  max: 40,
   idleTimeoutMillis: 30000,
   connectionTimeoutMillis: 2000,
 })
