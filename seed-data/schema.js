@@ -7,7 +7,7 @@ const Sequelize = require('sequelize');
 // })
 
 const connection = new Sequelize('nordstrom', 'postgres', 'abcdef', {
-  host: 'ec2-54-219-173-46.us-west-1.compute.amazonaws.com',
+  host: 'ec2-52-53-214-112.us-west-1.compute.amazonaws.com',
   port: 5432,
   dialect: 'postgres',
   logging: false
