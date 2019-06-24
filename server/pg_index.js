@@ -4,8 +4,8 @@ let pool
 // psql postgres://ec2-35-174-167-7.compute-1.amazonaws.com:5432/nordstrom ubuntu
 
 pool = new Pool({
-  host: 'ec2-54-89-156-185.compute-1.amazonaws.com',
-  user: 'ubuntu',
+  host: 'ec2-54-219-173-46.us-west-1.compute.amazonaws.com',
+  user: 'postgres',
   database: 'nordstrom',
   password: 'abcdef',
   port : 5432,

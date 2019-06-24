@@ -21,8 +21,8 @@ app.use(expressStaticGzip(path.resolve(__dirname,'../client/dist'), {
 }))
 
 //to verify loader io
-app.use("/loaderio-92d69ae5a0853164808be083bd2025b5", (req,res)=> {
-	res.send("loaderio-92d69ae5a0853164808be083bd2025b5")
+app.use("/loaderio-68732e771cd56e0afa2c073bc7a527de", (req,res)=> {
+	res.send("loaderio-68732e771cd56e0afa2c073bc7a527de")
 })
 
 //front-end axios
@@ -32,7 +32,7 @@ app.use("/loaderio-92d69ae5a0853164808be083bd2025b5", (req,res)=> {
 app.use('/pg/navbar', pg_router)
 
 //postgres route
-// psql postgres://ec2-3-87-44-33.compute-1.amazonaws.com:5432/nordstrom ubuntu
+// psql postgres://ec2-54-219-173-46.us-west-1.compute.amazonaws.com:5432/nanona postgres
 
 // establish port to listen on
 const PORT = process.env.PORT || 3000

@@ -6,8 +6,8 @@ const Sequelize = require('sequelize');
 //   logging: false
 // })
 
-const connection = new Sequelize('nordstrom', 'ubuntu', 'abcdef', {
-  host: 'ec2-3-88-194-253.compute-1.amazonaws.com',
+const connection = new Sequelize('nordstrom', 'postgres', 'abcdef', {
+  host: 'ec2-54-219-173-46.us-west-1.compute.amazonaws.com',
   port: 5432,
   dialect: 'postgres',
   logging: false
