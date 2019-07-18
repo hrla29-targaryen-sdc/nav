@@ -1,6 +1,10 @@
 # Nordstrom System Design
 > Scaled up on AWS EC2 instances
 
+![](microservice.png)
+
+Result: 4500 request per second within 0.1 % of error rate
+
 - Inherited front-end codebase and scaled up on AWS EC2 instances
 - Populated 10M fake product data with Node.js Streams and seeded on Postgres
 - Benchmarked MongoDB and Postgres, and got a better result with Postgres in terms of latency and error rate under high traffic
