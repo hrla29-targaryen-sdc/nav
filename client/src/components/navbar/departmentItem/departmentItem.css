@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Brandon Text';
+  src: url(../../../fonts/brandon-text.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.departments {
+  color: #333;
+  display: inline-block;
+  font-family: 'Brandon Text';
+  line-height: 1.4;
+  margin: 0 5% 0 0;
+  padding-bottom: .5rem;
+  position: relative;
+}
+
+.departments:hover {
+  border-bottom: 2px solid #333;
+  padding-bottom: 0px;
+}
+
+.overlayDiv {
+  background-color:rgba(255, 255, 255, 0.55);
+  height: 100%;
+  width: 99%;
+  top:200px;
+  z-index: 25;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
